@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #F28C00;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    min-width: 600px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.container .user-card{
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+    min-width: 470px;
+}
+
+.container .user-card .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.container .user-card .navbar .title h3{
+    font-size: 20px;
+}
+
+.container .user-card .navbar .title h4{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+.container .user-card .navbar .right{
+    margin-bottom: 20px;
+}
+.container .user-card .navbar .right img{
+    width: 90px;
+    height: 60px;
+}
+
+.container .user-card .body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+}
+
+.container .user-card .body .address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.container .user-card .body .address h3{
+    font-weight: 300;
+}
+
+.container .user-card .body .address a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    min-width: 30px;
+}
+
+.container .user-card .body .address i{
+    color: var(--primary-color);
+    font-size: 18px;
+}
